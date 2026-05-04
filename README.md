@@ -7,7 +7,7 @@ An LLM-based Automated Threat Analysis and Forensic Framework
 * **Multi-Agent Orchestration**: Seamless integration of traffic parsing, threat intelligence mapping, and AI-driven reasoning.
 * **Chain-of-Thought (CoT) Reasoning**: Empowers local LLMs (Llama 3 via Ollama) to perform expert-level security analysis.
 * **Neural-Symbolic Verification**: A post-processing engine that cross-references LLM claims with raw forensic artifacts to eliminate AI hallucinations.
-* **MITRE ATT&CK Mapping**: Automatically correlates detected behaviors with industry-standard TTPs (e.g., T1021, T1059).
+* **MITRE ATT&CK Mapping**: Automatically correlates detected behaviors with industry-standard TTPs.
 * **Privacy-First Design**: Processes sensitive network data locally using Ollama, ensuring no traffic data leaves the secure environment.
 
 ---

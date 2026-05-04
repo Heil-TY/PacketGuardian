@@ -1,0 +1,124 @@
+[
+  {
+    "flow_key": [
+      "unknown",
+      "unknown",
+      0,
+      0,
+      "UNKNOWN"
+    ],
+    "packet_count": 92,
+    "total_bytes": 7748,
+    "top_threat": {
+      "id": "T1021",
+      "name": "Remote Services",
+      "description": "Adversaries may use valid accounts to log into services designed to accept remote connections.",
+      "attack_stage": "lateral movement / remote access",
+      "score": 19,
+      "evidence": [
+        "Tag match: telnet_login_prompt",
+        "Tag match: telnet_password_prompt",
+        "Keyword match: login:",
+        "Keyword match: password:",
+        "Keyword match: last login",
+        "Indicator bonus: telnet session detected",
+        "Indicator bonus: credential prompt detected",
+        "Indicator bonus: plaintext remote login evidence"
+      ]
+    },
+    "threat_candidates": [
+      {
+        "id": "T1021",
+        "name": "Remote Services",
+        "description": "Adversaries may use valid accounts to log into services designed to accept remote connections.",
+        "attack_stage": "lateral movement / remote access",
+        "score": 19,
+        "evidence": [
+          "Tag match: telnet_login_prompt",
+          "Tag match: telnet_password_prompt",
+          "Keyword match: login:",
+          "Keyword match: password:",
+          "Keyword match: last login",
+          "Indicator bonus: telnet session detected",
+          "Indicator bonus: credential prompt detected",
+          "Indicator bonus: plaintext remote login evidence"
+        ]
+      },
+      {
+        "id": "T1059",
+        "name": "Command and Scripting Interpreter",
+        "description": "Adversaries may abuse command and script interpreters to execute commands.",
+        "attack_stage": "execution",
+        "score": 7,
+        "evidence": [
+          "Keyword match: /sbin/ping",
+          "Keyword match: ping ",
+          "Indicator bonus: command execution evidence"
+        ]
+      },
+      {
+        "id": "T1046",
+        "name": "Network Service Scanning",
+        "description": "Adversaries may attempt to discover services running on remote systems.",
+        "attack_stage": "discovery / reconnaissance",
+        "score": 5,
+        "evidence": [
+          "Tag match: tcp_syn",
+          "Indicator bonus: SYN activity detected"
+        ]
+      }
+    ],
+    "protocol_risks": [
+      {
+        "protocol_family": "telnet",
+        "risk": "plaintext credential exposure",
+        "severity": "high",
+        "description": "Telnet session content is plaintext and may expose credentials and commands.",
+        "matched_conditions": [
+          "telnet_login_prompt",
+          "telnet_password_prompt",
+          "telnet_data"
+        ]
+      }
+    ],
+    "risk_level": "high",
+    "indicators": {
+      "credential_prompt": true,
+      "plaintext_remote_login": true,
+      "command_execution": true,
+      "sql_injection": false,
+      "path_traversal": false,
+      "shell_execution": false,
+      "beaconing_pattern": false,
+      "telnet_session": true,
+      "evidence_items": [
+        "Credential prompt tags detected.",
+        "Telnet application data detected.",
+        "Interactive login session evidence observed.",
+        "Command execution evidence: /sbin/ping",
+        "Ping command text observed."
+      ]
+    },
+    "evidence": [
+      "Credential prompt tags detected.",
+      "Telnet application data detected.",
+      "Interactive login session evidence observed.",
+      "Command execution evidence: /sbin/ping",
+      "Ping command text observed.",
+      "Tag match: telnet_login_prompt",
+      "Tag match: telnet_password_prompt",
+      "Keyword match: login:",
+      "Keyword match: password:",
+      "Keyword match: last login",
+      "Indicator bonus: telnet session detected",
+      "Indicator bonus: credential prompt detected",
+      "Indicator bonus: plaintext remote login evidence"
+    ],
+    "reasoning": "The traffic appears to include an interactive Telnet session. Login and/or password prompts were observed, suggesting credential entry during the session. Human-readable application data suggests plaintext session content. Command-like content was detected after session establishment. The strongest ATT&CK mapping is T1021 - Remote Services. Protocol risk identified: plaintext credential exposure.",
+    "recommended_focus": [
+      "credential exposure",
+      "plaintext remote access",
+      "post-login command execution"
+    ]
+  }
+]

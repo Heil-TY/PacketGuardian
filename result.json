@@ -1,0 +1,2202 @@
+{
+  "summary": {
+    "total_packets_parsed": 92,
+    "total_flows": 1
+  },
+  "flows": [
+    {
+      "flow_key": [
+        "unknown",
+        "unknown",
+        0,
+        0,
+        "UNKNOWN"
+      ],
+      "packet_count": 92,
+      "total_bytes": 7748,
+      "start_time": 943755158.387203,
+      "end_time": 943755197.958477,
+      "protocols_seen": [
+        "UNKNOWN"
+      ],
+      "tags": [
+        "tcp_syn",
+        "telnet_data",
+        "mostly_printable_payload",
+        "telnet_login_prompt",
+        "telnet_password_prompt"
+      ],
+      "observations": [
+        "TCP connection initiation observed."
+      ],
+      "intervals": [
+        0.002525,
+        4.7e-05,
+        0.001588,
+        0.146175,
+        6.7e-05,
+        0.000172,
+        0.001372,
+        0.001711,
+        0.000208,
+        0.001119,
+        0.000593,
+        7.9e-05,
+        0.00099,
+        0.00237,
+        0.000211,
+        0.000617,
+        0.001174,
+        0.020249,
+        0.000111,
+        0.001137,
+        0.013791,
+        0.000121,
+        0.001075,
+        0.000784,
+        0.01093,
+        0.001311,
+        0.018712,
+        1.088624,
+        0.011366,
+        1.232764,
+        0.001372,
+        0.012081,
+        0.000152,
+        0.001078,
+        0.000996,
+        0.011557,
+        0.992276,
+        0.001308,
+        0.264339,
+        0.012098,
+        0.001163,
+        0.000158,
+        0.001389,
+        1.279532,
+        0.017746,
+        0.001912,
+        0.018089,
+        0.019429,
+        0.010561,
+        14.699048,
+        0.00164,
+        0.369313,
+        0.001155,
+        0.033591,
+        0.015266,
+        0.058051,
+        0.011958,
+        0.985137,
+        0.014854,
+        0.983949,
+        0.016049,
+        0.985338,
+        0.014664,
+        0.987016,
+        0.012991,
+        0.982365,
+        0.017624,
+        0.418974,
+        0.001324,
+        0.011968,
+        0.001351,
+        0.000722,
+        0.015641,
+        0.001413,
+        0.018609,
+        1.004118,
+        0.001323,
+        0.037492,
+        0.017055,
+        8.780945,
+        0.001538,
+        0.175582,
+        0.011959,
+        0.001236,
+        0.018739,
+        3.634318,
+        0.001784,
+        0.014441,
+        2.5e-05,
+        0.000151,
+        0.001328
+      ]
+    }
+  ],
+  "packets": [
+    {
+      "index": 1,
+      "timestamp": 943755158.387203,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 74,
+      "tcp_flags": [
+        "SYN"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [
+        "tcp_syn"
+      ],
+      "observations": [
+        "TCP connection initiation observed."
+      ]
+    },
+    {
+      "index": 2,
+      "timestamp": 943755158.389728,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 74,
+      "tcp_flags": [
+        "SYN",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 3,
+      "timestamp": 943755158.389775,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 4,
+      "timestamp": 943755158.391363,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 93,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u0003��\u0018��\u001f�� ��!��\"��'��\u0005��#",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 5,
+      "timestamp": 943755158.537538,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 69,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��%",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 6,
+      "timestamp": 943755158.537605,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 7,
+      "timestamp": 943755158.537777,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 69,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��%",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 8,
+      "timestamp": 943755158.539149,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 9,
+      "timestamp": 943755158.54086,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 91,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u0003��\u0018��\u001f�� ��!��\"��\"\u0001\u000b��",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 10,
+      "timestamp": 943755158.541068,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 130,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u001f\u0000P\u0000 ����\"\u0003\u0001\u0000\u0000\u0003b\u0003\u0004\u0002\u000f\u0005\u0000\u0000\u0007b\u001c\b\u0002\u0004\tB\u001a\n\u0002\u000b\u0002\u0015\u000f\u0002\u0011\u0010\u0002\u0013\u0011\u0000\u0000\u0012\u0000\u0000����\u0003��\"\u0001\u000f��",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 11,
+      "timestamp": 943755158.542187,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 12,
+      "timestamp": 943755158.54278,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 84,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��'��\u0005��#��&��&��$",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 13,
+      "timestamp": 943755158.542859,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 75,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��&��&��$",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 14,
+      "timestamp": 943755158.543849,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 15,
+      "timestamp": 943755158.546219,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 90,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "�� \u0001����#\u0001����'\u0001����\u0018\u0001��",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 16,
+      "timestamp": 943755158.54643,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 17,
+      "timestamp": 943755158.547047,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 151,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "�� \u00009600,9600����#\u0000bam.zing.org:0.0����'\u0000\u0000DISPLAY\u0001bam.zing.org:0.0����\u0018\u0000xterm-color��",
+      "printable_strings": [
+        "9600,9600",
+        "bam.zing.org:0.0",
+        "DISPLAY",
+        "bam.zing.org:0.0",
+        "xterm-color"
+      ],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 18,
+      "timestamp": 943755158.548221,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 19,
+      "timestamp": 943755158.56847,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 69,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u0001",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 20,
+      "timestamp": 943755158.568581,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 69,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u0001",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 21,
+      "timestamp": 943755158.569718,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 22,
+      "timestamp": 943755158.583509,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 78,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u0001��!\u0002����\u0001",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 23,
+      "timestamp": 943755158.58363,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 72,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u0001��\u0001",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 24,
+      "timestamp": 943755158.584705,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 25,
+      "timestamp": 943755158.585489,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 81,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\"\u0003\u0005�\u0000\u0011�\u0000\u0012�\u0000��",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 26,
+      "timestamp": 943755158.596419,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 27,
+      "timestamp": 943755158.59773,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 98,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "\r\nOpenBSD/i386 (oof) (ttyp2)\r\n\r\n",
+      "printable_strings": [
+        "OpenBSD/i386 (oof) (ttyp2)"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 28,
+      "timestamp": 943755158.616442,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 29,
+      "timestamp": 943755159.705066,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 73,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "login: ",
+      "printable_strings": [
+        "login: "
+      ],
+      "semantic_tags": [
+        "telnet_login_prompt",
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 30,
+      "timestamp": 943755159.716432,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 31,
+      "timestamp": 943755160.949196,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 72,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "fake\r\n",
+      "printable_strings": [
+        "fake"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 32,
+      "timestamp": 943755160.950568,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 33,
+      "timestamp": 943755160.962649,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 69,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u0001",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 34,
+      "timestamp": 943755160.962801,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 69,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u0001",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 35,
+      "timestamp": 943755160.963879,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 36,
+      "timestamp": 943755160.964875,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 75,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "Password:",
+      "printable_strings": [
+        "Password:"
+      ],
+      "semantic_tags": [
+        "telnet_password_prompt",
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 37,
+      "timestamp": 943755160.976432,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 38,
+      "timestamp": 943755161.968708,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 72,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "user\r\n",
+      "printable_strings": [
+        "user"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 39,
+      "timestamp": 943755161.970016,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 40,
+      "timestamp": 943755162.234355,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 68,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "\r\n",
+      "printable_strings": [],
+      "semantic_tags": [
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 41,
+      "timestamp": 943755162.246453,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 42,
+      "timestamp": 943755162.247616,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 69,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u0001",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 43,
+      "timestamp": 943755162.247774,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 69,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u0001",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 44,
+      "timestamp": 943755162.249163,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 45,
+      "timestamp": 943755163.528695,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 126,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "Last login: Sat Nov 27 20:11:43 on ttyp2 from bam.zing.org\r\n",
+      "printable_strings": [
+        "Last login: Sat Nov 27 20:11:43 on ttyp2 from bam.zing.org"
+      ],
+      "semantic_tags": [
+        "telnet_login_prompt",
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 46,
+      "timestamp": 943755163.546441,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 47,
+      "timestamp": 943755163.548353,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 554,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "Warning: no Kerberos tickets issued.\r\nOpenBSD 2.6-beta (OOF) #4: Tue Oct 12 20:42:32 CDT 1999\r\n\r\nWelcome to OpenBSD: The proactively secure Unix-like operating system.\r\n\r\nPlease use the sendbug(1) uti",
+      "printable_strings": [
+        "Warning: no Kerberos tickets issued.",
+        "OpenBSD 2.6-beta (OOF) #4: Tue Oct 12 20:42:32 CDT 1999",
+        "Welcome to OpenBSD: The proactively secure Unix-like operating system.",
+        "Please use the sendbug(1) utility to report bugs in the system.",
+        "Before reporting a bug, please try to reproduce it with the latest",
+        "version of the code.  With bug reports, please try to ensure that",
+        "enough information to reproduce the problem is enclosed, and if a",
+        "known fix for it exists, include that as well."
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 48,
+      "timestamp": 943755163.566442,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 49,
+      "timestamp": 943755163.585871,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 68,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "$ ",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 50,
+      "timestamp": 943755163.596432,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 51,
+      "timestamp": 943755178.29548,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 92,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "/sbin/ping www.yahoo.com\r\n",
+      "printable_strings": [
+        "/sbin/ping www.yahoo.com"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 52,
+      "timestamp": 943755178.29712,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 53,
+      "timestamp": 943755178.666433,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 92,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "/sbin/ping www.yahoo.com\r\n",
+      "printable_strings": [
+        "/sbin/ping www.yahoo.com"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 54,
+      "timestamp": 943755178.667588,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 55,
+      "timestamp": 943755178.701179,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 117,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "PING www.yahoo.com (204.71.200.67): 56 data bytes\r\n",
+      "printable_strings": [
+        "PING www.yahoo.com (204.71.200.67): 56 data bytes"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 56,
+      "timestamp": 943755178.716445,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 57,
+      "timestamp": 943755178.774496,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 130,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "64 bytes from 204.71.200.67: icmp_seq=0 ttl=241 time=69.885 ms\r\n",
+      "printable_strings": [
+        "64 bytes from 204.71.200.67: icmp_seq=0 ttl=241 time=69.885 ms"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 58,
+      "timestamp": 943755178.786454,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 59,
+      "timestamp": 943755179.771591,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 130,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "64 bytes from 204.71.200.67: icmp_seq=1 ttl=241 time=73.591 ms\r\n",
+      "printable_strings": [
+        "64 bytes from 204.71.200.67: icmp_seq=1 ttl=241 time=73.591 ms"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 60,
+      "timestamp": 943755179.786445,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 61,
+      "timestamp": 943755180.770394,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 130,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "64 bytes from 204.71.200.67: icmp_seq=2 ttl=241 time=72.302 ms\r\n",
+      "printable_strings": [
+        "64 bytes from 204.71.200.67: icmp_seq=2 ttl=241 time=72.302 ms"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 62,
+      "timestamp": 943755180.786443,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 63,
+      "timestamp": 943755181.771781,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 130,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "64 bytes from 204.71.200.67: icmp_seq=3 ttl=241 time=73.493 ms\r\n",
+      "printable_strings": [
+        "64 bytes from 204.71.200.67: icmp_seq=3 ttl=241 time=73.493 ms"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 64,
+      "timestamp": 943755181.786445,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 65,
+      "timestamp": 943755182.773461,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 130,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "64 bytes from 204.71.200.67: icmp_seq=4 ttl=241 time=75.068 ms\r\n",
+      "printable_strings": [
+        "64 bytes from 204.71.200.67: icmp_seq=4 ttl=241 time=75.068 ms"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 66,
+      "timestamp": 943755182.786452,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 67,
+      "timestamp": 943755183.768817,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 130,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "64 bytes from 204.71.200.67: icmp_seq=5 ttl=241 time=70.239 ms\r\n",
+      "printable_strings": [
+        "64 bytes from 204.71.200.67: icmp_seq=5 ttl=241 time=70.239 ms"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 68,
+      "timestamp": 943755183.786441,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 69,
+      "timestamp": 943755184.205415,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 71,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "����\u0006",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 70,
+      "timestamp": 943755184.206739,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 71,
+      "timestamp": 943755184.218707,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 69,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "��\u0006",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data"
+      ],
+      "observations": []
+    },
+    {
+      "index": 72,
+      "timestamp": 943755184.220058,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 67,
+      "tcp_flags": [
+        "PSH",
+        "ACK",
+        "URG"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "�",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 73,
+      "timestamp": 943755184.22078,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 67,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "�",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 74,
+      "timestamp": 943755184.236421,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 75,
+      "timestamp": 943755184.237834,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 218,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "\r\u0000--- www.yahoo.com ping statistics ---\r\n6 packets transmitted, 6 packets received, 0% packet loss\r\nround-trip min/avg/max = 69.885/72.429/75.068 ms\r\n$ ",
+      "printable_strings": [
+        "--- www.yahoo.com ping statistics ---",
+        "6 packets transmitted, 6 packets received, 0% packet loss",
+        "round-trip min/avg/max = 69.885/72.429/75.068 ms"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 76,
+      "timestamp": 943755184.256443,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 77,
+      "timestamp": 943755185.260561,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 70,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "ls\r\n",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 78,
+      "timestamp": 943755185.261884,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 79,
+      "timestamp": 943755185.299376,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 68,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "$ ",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 80,
+      "timestamp": 943755185.316431,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 81,
+      "timestamp": 943755194.097376,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 73,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "ls -a\r\n",
+      "printable_strings": [
+        "ls -a"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 82,
+      "timestamp": 943755194.098914,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 83,
+      "timestamp": 943755194.274496,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 135,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": ".         ..        .cshrc    .login    .mailrc   .profile  .rhosts\r\n",
+      "printable_strings": [
+        ".         ..        .cshrc    .login    .mailrc   .profile  .rhosts"
+      ],
+      "semantic_tags": [
+        "telnet_login_prompt",
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 84,
+      "timestamp": 943755194.286455,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 85,
+      "timestamp": 943755194.287691,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 68,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "$ ",
+      "printable_strings": [],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 86,
+      "timestamp": 943755194.30643,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 87,
+      "timestamp": 943755197.940748,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 72,
+      "tcp_flags": [
+        "PSH",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "exit\r\n",
+      "printable_strings": [
+        "exit"
+      ],
+      "semantic_tags": [
+        "telnet_data",
+        "mostly_printable_payload"
+      ],
+      "observations": []
+    },
+    {
+      "index": 88,
+      "timestamp": 943755197.942532,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 89,
+      "timestamp": 943755197.956973,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "FIN",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 90,
+      "timestamp": 943755197.956998,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 91,
+      "timestamp": 943755197.957149,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "FIN",
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    },
+    {
+      "index": 92,
+      "timestamp": 943755197.958477,
+      "src_ip": "unknown",
+      "dst_ip": "unknown",
+      "src_port": null,
+      "dst_port": null,
+      "protocol": "UNKNOWN",
+      "packet_len": 66,
+      "tcp_flags": [
+        "ACK"
+      ],
+      "dns": null,
+      "http": null,
+      "tls": null,
+      "payload_preview": "",
+      "printable_strings": [],
+      "semantic_tags": [],
+      "observations": []
+    }
+  ]
+}
